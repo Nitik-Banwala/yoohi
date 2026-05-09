@@ -5,6 +5,7 @@ import Navbar from "@/components/common/Navbar";
 export const metadata = {
  title: "Yoohi",
  description: "Next Generation Patient Engagement and RTM Solution",
+     images: ["/meta.png"],
 };
 
 export default function RootLayout({ children }) {
