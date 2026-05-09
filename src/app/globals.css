@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
 
-/* jdfzmxhXfjhldskfzhbxcfnK,vdfjbnxzl,d */
 * {
   font-family: "Inter", sans-serif;
 }
@@ -35,7 +34,25 @@
 
 }
 
+/* custom scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 2px;
 
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 999px;
+
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 @theme {
   /* color */
   --color-whity: #110163;

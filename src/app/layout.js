@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 
 export const metadata = {
- title: "Yoohi",
+ title: "Yoomi",
  description: "Next Generation Patient Engagement and RTM Solution",
      images: ["/meta.png"],
 };

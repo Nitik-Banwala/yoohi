@@ -9,7 +9,7 @@ const News = () => {
       <div className="bg-[url('/assets/images/png/news.png')] flex flex-col py-10 md:py-0 rounded-4xl md:flex-row justify-between items-center px-[84.1px] bg-center bg-no-repeat bg-cover mx-auto max-w-[1145.1px] w-full min-h-[379.1px] h-full">
         <div>
           <Icons icon={'footerlogo'} />
-          <h2 className='text-white mt-7 text-3xl font-normal leading-110'>Sign Up to Join <span className='font-semibold'>Our Newsletter</span></h2>
+          <h2 className='text-white mt-7 text-3xl font-normal puls leading-110'>Sign Up to Join <span className='font-semibold puls'>Our Newsletter</span></h2>
           <div className='max-w-[428.1px] flex flex-row justify-between items-center w-full h-[56.1px] rounded-sm mt-12.25 bg-white'>
             <input type="text" placeholder='Enter Your Email' className='ml-2.25 border-0 outline-none focus:outline-none focus:ring-0 placeholder:text-whity text-whity text-base font-medium placeholder:font-medium' />
             <Button

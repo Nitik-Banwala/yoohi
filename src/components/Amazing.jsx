@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css'
+import Button from './common/Button'
 import { SLIDER_DATA } from '@/utils/helper'
 import { LIBRARY_DATA } from '@/utils/helper'
 import Icons from './common/Icons'
@@ -18,8 +19,8 @@ function Amazing() {
                     {/* Left Content */}
                     <div className='shrink-0'>
                         <p className='font-inter font-medium text-base uppercase leading-[118%] text-dark'>Library</p>
-                        <h3 className='pt-2 pb-5.25 font-plus-jakarta font-normal text-custom-3xl leading-110 text-black'>
-                            Extensive Exercise <span className='font-semibold'>Library</span>
+                        <h3 className='pt-2 pb-5.25 font-plus-jakarta puls font-normal text-custom-3xl leading-110 text-black'>
+                            Extensive Exercise <span className='font-semibold puls'>Library</span>
                         </h3>
                         <div className='flex flex-col gap-2.25 max-w-117 mb-9.25'>
                             {LIBRARY_DATA.map((item, i) => (
@@ -33,9 +34,9 @@ function Amazing() {
                                 </div>
                             ))}
                         </div>
-                        <button className='bg-[#076787] rounded-sm py-4 px-[18.5px] text-white'>
-                            View the Library
-                        </button>
+                        <Button text={'   View the Library'} variants='first' className='bg-[#076787] rounded-sm py-4 px-[18.5px] text-white'/>
+                         
+                        
                     </div>
 
                     {/* Right Slider */}

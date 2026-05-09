@@ -19,7 +19,7 @@ export default function Platform() {
     </p>
 
     <h2 className="text-custom-5xl font-normal text-black mt-2">
-     Through <span className="font-semibold">Our Platform</span>
+     Through <span className="font-semibold puls">Our Platform</span>
     </h2>
 
     <p className="text-black mt-4 text-base font-normal">

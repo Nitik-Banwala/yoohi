@@ -30,17 +30,20 @@ const Navbar = () => {
           }`}
       >
         <div className='max-w-285 mx-auto py-6.25 justify-between flex flex-row items-center'>
+          <Link 
+          href="">
           <Image
             src={'/assets/images/svg/logo.svg'}
             width={118}
             height={30}
             alt='nav_logo'
           />
+          </Link>
           <div className='hidden md:flex flex-row gap-[27.1px]'>
-            <div className='flex flex-row mt-3 gap-11.25'>
-              <Link href="">About Us</Link>
-              <Link href="">News</Link>
-              <Link href="">Contact Us</Link>
+            <div className='flex flex-row mt-4 gap-11.25'>
+              <Link href="" className='leading-100 hidden md:flex '>About Us</Link>
+              <Link href="" className='leading-100 hidden md:flex' >News</Link>
+              <Link href="" className='leading-100 hidden md:flex'>Contact Us</Link>
             </div>
             <Button
               variants='first'

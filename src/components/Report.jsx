@@ -9,8 +9,8 @@ const Report = () => {
 
         {/* Left Content */}
         <div className='max-w-[404.1px] w-full'>
-          <p className='uppercase font-medium text-base text-dark leading-[100%]'>report</p>
-          <h2 className='mt-2 font-normal text-black text-custom-3xl'>Reporting + <span className='font-semibold'>Analytics</span></h2>
+          <p className='uppercase font-medium text-base text-dark leading-100'>report</p>
+          <h2 className='mt-2 font-normal text-black text-custom-3xl puls'>Reporting + <span className='font-semibold puls'>Analytics</span></h2>
           <p className='mt-5 text-black leading-150 max-w-[385.1px] opacity-70'>
             Track patient progress over time with compliance, pain, RPE, ROM and other key metrics
           </p>

@@ -28,7 +28,7 @@ const Tracking = () => {
         </div>
         <div className='min-[1120px]:mt-0 mt-5'>
           <p className='text-dark font-medium text-base leading-[100%]'>TRACKING</p>
-          <h2 className='text-custom-3xl font-normal leading-120 text-black max-w-[468.1px] mb-5 w-full mt-2'>Cutting Edge Motion <span className='font-semibold'>Tracking/ Feedback</span></h2>
+          <h2 className='text-custom-3xl font-normal leading-120 text-black max-w-[468.1px] mb-5 w-full puls mt-2'>Cutting Edge Motion <span className='font-semibold puls'>Tracking/ Feedback</span></h2>
           {FEATURES.map((item, index) => (
             <div
               key={index}
