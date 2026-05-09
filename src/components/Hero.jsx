@@ -51,7 +51,7 @@ const Hero = () => {
             <Button
               variants="first"
               text={"Get Started"}
-              className={"h-11.25 w-30.75 mr-1"}
+              className={"h-11.25 w-40 mr-1"}
               onClick={handleSubmit}
             />
           </div>
