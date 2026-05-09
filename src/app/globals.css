@@ -54,9 +54,9 @@
   background: #555;
 }
 @theme {
-  /* color */
+  /* color*/
   --color-whity: #110163;
-  --color-dark: #076787;
+  --color-dark: #076787; 
 
 
 
@@ -69,6 +69,7 @@
 
   /* line-height */
   --leading-100: 100%;
+   --leading-118: 118%;
   --leading-150: 150%;
   --leading-120: 120%;
   --leading-110: 110%;

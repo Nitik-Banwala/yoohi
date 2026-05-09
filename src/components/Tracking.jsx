@@ -5,8 +5,9 @@ import { FEATURES } from '@/utils/helper'
 import Icons from './common/Icons'
 const Tracking = () => {
   return (
-    <div className='px-4 my-24 '>
-      <div className='max-w-[1138.1px] flex flex-col py-14.5 ms:pr-7 sm:pl-18 min-[1120px]:flex-row justify-between min-[1120px]:items-center mx-auto w-full rounded-4xl shadow-[0px_26px_27px_0px_#0000000A]'>
+    <>
+    <div className='px-4 my-24 z-30'>
+      <div className='max-w-[1138.1px] bg-white flex flex-col py-14.5 ms:pr-7 sm:pl-18 min-[1120px]:flex-row justify-between min-[1120px]:items-center mx-auto w-full rounded-4xl shadow-[0px_26px_27px_0px_#0000000A]'>
         <div className='min-[1120px]:mb-0 mb-3'>
           <div className=' sm:flex hidden absolute max-w-[552.1px] mt-[-42.1px] ml-[-38.1px] w-full flex-row  justify-between'>
             <Image
@@ -27,8 +28,8 @@ const Tracking = () => {
             alt='main' className='trackingmain' />
         </div>
         <div className='min-[1120px]:mt-0 mt-5'>
-          <p className='text-dark font-medium text-base leading-[100%]'>TRACKING</p>
-          <h2 className='text-custom-3xl font-normal leading-120 text-black max-w-[468.1px] mb-5 w-full puls mt-2'>Cutting Edge Motion <span className='font-semibold puls'>Tracking/ Feedback</span></h2>
+          <p className='text-dark font-medium text-base leading-100'>TRACKING</p>
+          <h2 className='text-2xl sm:text-custom-3xl font-normal leading-120 text-black max-w-[468.1px] mb-5 w-full puls mt-2'>Cutting Edge Motion <span className='font-semibold puls'>Tracking/ Feedback</span></h2>
           {FEATURES.map((item, index) => (
             <div
               key={index}
@@ -45,6 +46,10 @@ const Tracking = () => {
         </div>
       </div>
     </div>
+    <div className='-z-1 absolute right-0 -mt-38'>
+      <Icons icon={'right'}/>
+    </div>
+    </>
   )
 }
 

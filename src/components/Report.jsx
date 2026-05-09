@@ -5,12 +5,12 @@ import Image from 'next/image'
 const Report = () => {
   return (
     <div className='px-4 mb-24'>
-      <div className='max-w-[1138.1px] flex flex-col lg:flex-row justify-between items-center mx-auto w-full rounded-4xl pt-[90.1px] pb-[106.1px] pl-8.5 pr-9.25 shadow-[0px_26px_27px_0px_#0000000A]'>
+      <div className="max-w-[1138.1px] bg-[url('/assets/images/png/Reporting.png')] bg-center bg-cover bg-no-repeat flex flex-col lg:flex-row justify-between items-center mx-auto w-full rounded-4xl pt-[90.1px] pb-[106.1px] pl-8.5 pr-9.25 shadow-[0px_26px_27px_0px_#0000000A]">
 
         {/* Left Content */}
-        <div className='max-w-[404.1px] w-full'>
+        <div className='max-w-[404.1px] text-center lg:text-start w-full'>
           <p className='uppercase font-medium text-base text-dark leading-100'>report</p>
-          <h2 className='mt-2 font-normal text-black text-custom-3xl puls'>Reporting + <span className='font-semibold puls'>Analytics</span></h2>
+          <h2 className='mt-2 font-normal text-black text-2xl sm:text-custom-3xl puls'>Reporting + <span className='font-semibold puls'>Analytics</span></h2>
           <p className='mt-5 text-black leading-150 max-w-[385.1px] opacity-70'>
             Track patient progress over time with compliance, pain, RPE, ROM and other key metrics
           </p>

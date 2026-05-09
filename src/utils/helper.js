@@ -31,23 +31,23 @@ export const KNOWSDATA = [
   },
 ]
 
- export const STATS = [
+export const STATS = [
   {
-   number: 50,
-   title: "Reduction in\nPain",
-   bg: '/assets/images/png/fifty.png',
+    number: 50,
+    title: "Reduction in\nPain",
+    bg: '/assets/images/png/fifty.png',
   },
   {
-   number: 90,
-   title: "Increase In-Patient\nSatisfaction",
-   bg: '/assets/images/png/ninty.png',
+    number: 90,
+    title: "Increase In-Patient\nSatisfaction",
+    bg: '/assets/images/png/ninty.png',
   },
   {
-   number: 60,
-   title: "Faster Recovery",
-   bg: '/assets/images/png/sixty.png',
+    number: 60,
+    title: "Faster Recovery",
+    bg: '/assets/images/png/sixty.png',
   },
- ];
+];
 export const PARTNERSDATA = [
   {
     id: '1',
@@ -65,51 +65,59 @@ export const PARTNERSDATA = [
     id: '4',
     image: '/assets/images/png/fandf.png'
   },
-   {
+  {
     id: '5',
     image: '/assets/images/png/cuf.png'
   },
 
 ]
 export const FEATURES = [
- {
-  title:
-   "Provides a holistic, real-time analysis of patient exercise form, capturing 300+ data points and critical metrics.",
- },
- {
-  title:
-   "Delivers immediate feedback and guidance to correct and improve exercise form.",
- },
- {
-  title:
-   "Supported by the most accurate motion-tracking model designed for rehabilitation, Yoomi Vision.",
- },
- {
-  title:
-   "Requires no custom hardware, sensors, or equipment.",
- },
+  {
+    title:
+      "Provides a holistic, real-time analysis of patient exercise form, capturing 300+ data points and critical metrics.",
+  },
+  {
+    title:
+      "Delivers immediate feedback and guidance to correct and improve exercise form.",
+  },
+  {
+    title:
+      "Supported by the most accurate motion-tracking model designed for rehabilitation, Yoomi Vision.",
+  },
+  {
+    title:
+      "Requires no custom hardware, sensors, or equipment.",
+  },
 ];
 
 export const LIBRARY_DATA = [
-        {
-            description: "Utilize Yoomi's HEP templates to quickly create and assign programs to your patients "
-        },
-        {
-            description: "Choose from our library of exercises for all patient cases"
-        },
-        {
-            description: "Use Yoomi's industry-leading exercise generation tool to create your own exercises that track adherence and form in seconds"
-        },
-    ];
+  "Utilize Yoomi's HEP templates to quickly create and assign programs to your patients ",
+  "Choose from our library of exercises for all patient cases",
+  "Use Yoomi's industry-leading exercise generation tool to create your own exercises that track adherence and form in seconds"
+];
 
-   export const SLIDER_DATA = [
-        {
-            img: "/assets/images/png/slider.png"
-        },
-        {
-            img: "/assets/images/png/slider.png"
-        },
-        {
-            img: "/assets/images/png/slider.png"
-        },
-    ];
+export const SLIDER_DATA = [
+  {
+    img: "/assets/images/png/slider.png"
+  },
+  {
+    img: "/assets/images/png/slider.png"
+  },
+  {
+    img: "/assets/images/png/slider.png"
+  },
+];
+export const NAVLINKS = [
+  {
+    id: 1,
+    link: "About Us"
+  },
+  {
+    id: 2,
+    link: "News"
+  },
+  {
+    id: 3,
+    link: "Contact Us"
+  },
+]

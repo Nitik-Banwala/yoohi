@@ -39,7 +39,27 @@ const Icons = ({ icon }) => {
       <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path className='group-hover:stroke-white' d="M12.2799 6.13944L7.89453 10.5248L12.2799 14.9102" stroke="black" strokeWidth="1.75416" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
-    )
+    ),
+    right: (
+      <svg width="304" height="246" viewBox="0 0 304 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.1">
+          <path d="M122.274 122.196V64.8594H0V180.17H61.471V122.196H122.274Z" fill="#85B6A6" />
+          <rect x="57.5054" y="180.171" width="64.7332" height="64.8622" fill="#85B6A6" />
+          <rect x="179.769" y="180.171" width="64.7331" height="64.8622" fill="#85B6A6" />
+          <path fillRule="evenodd" clipRule="evenodd" d="M122.226 0H243.832V61.5935H122.226V0ZM303.967 121.852H303.97V183.446H243.835V123.187H182.361V61.5937H303.967V121.852Z" fill="#85B6A6" />
+        </g>
+      </svg>
+    ),
+    left: (
+      <svg width="247" height="246" viewBox="0 0 247 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.1">
+          <path d="M65.2586 122.196V64.8594H-57.0151V180.17H4.45581V122.196H65.2586Z" fill="#85B6A6" />
+          <rect x="0.484375" y="180.171" width="64.7332" height="64.8622" fill="#85B6A6" />
+          <rect x="122.748" y="180.171" width="64.7331" height="64.8622" fill="#85B6A6" />
+          <path fillRule="evenodd" clipRule="evenodd" d="M65.207 0H186.813V61.5935H65.207V0ZM246.948 121.852H246.951V183.446H186.816V123.187H125.342V61.5937H246.948V121.852Z" fill="#85B6A6" />
+        </g>
+      </svg>
+    ),
   };
   return iconList[icon] || null;
 };

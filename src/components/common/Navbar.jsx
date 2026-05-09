@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Button from './Button'
+import { NAVLINKS } from '@/utils/helper'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -30,21 +31,23 @@ const Navbar = () => {
           }`}
       >
         <div className='max-w-285 mx-auto py-6.25 justify-between flex flex-row items-center'>
-          <Link 
-          href="">
-          <Image
-            src={'/assets/images/svg/logo.svg'}
-            width={118}
-            height={30}
-            alt='nav_logo'
-          />
+          <Link
+            href="#">
+            <Image
+              src={'/assets/images/svg/logo.svg'}
+              width={118}
+              height={30}
+              alt='nav_logo'
+            />
           </Link>
           <div className='hidden md:flex flex-row gap-[27.1px]'>
-            <div className='flex flex-row mt-4 gap-11.25'>
-              <Link href="" className='leading-100 hidden md:flex '>About Us</Link>
-              <Link href="" className='leading-100 hidden md:flex' >News</Link>
-              <Link href="" className='leading-100 hidden md:flex'>Contact Us</Link>
-            </div>
+            {NAVLINKS.map((item , index) => {
+              return (
+                <div key={index} className='flex flex-row mt-4 gap-11.25'>
+                  <Link href="#" className='leading-100 hidden md:flex '>{item.link}</Link>
+                </div>
+              )
+            })}
             <Button
               variants='first'
               text={'Get Started'}
@@ -88,7 +91,7 @@ const Navbar = () => {
         {['About Us', 'News', 'Contact Us'].map((label) => (
           <Link
             key={label}
-            href=""
+            href="#"
             onClick={closeMenu}
             className='text-base py-4 border-b border-neutral-100 dark:border-neutral-800 text-neutral-600 dark:text-neutral-300 hover:text-black dark:hover:text-white transition-colors'
           >

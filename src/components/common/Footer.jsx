@@ -5,6 +5,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
+    <div className='bg-[#d9d9d91a] w-12 h-28 mt-60 absolute'> </div>
       <div className='w-full bg-black px-4 '>
         <div className='max-w-285 flex flex-col min-[620.1px]:flex-row justify-between mx-auto pt-26.75'>
           <div>
@@ -42,9 +43,9 @@ const Footer = () => {
         </div>
         <div className='max-w-360 border-t border-white/20 h-15'>
           <div className='max-w-285 mx-auto gap-5.75 justify-end flex flex-row my-5.5 '>
-            <span className='text-white/60 text-sm'>Terms of Service</span>
-            <span className='text-white/60 text-sm'>Privacy Policy</span>
-            <span className='text-white/60 text-sm'>Cookies</span>
+            <Link href="#" className='text-white/60 text-sm'>Terms of Service</Link>
+            <Link href="#" className='text-white/60 text-sm'>Privacy Policy</Link>
+            <Link href="#" className='text-white/60 text-sm'>Cookies</Link>
           </div>
         </div>
       </div >

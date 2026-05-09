@@ -10,10 +10,10 @@ const Knowmore = () => {
  return (
   <div className='overflow-hidden px-4'>
    <div className='max-w-[615.1px] mb-13.75 mx-auto flex flex-col items-center justify-center text-center'>
-    <p className='text-dark font-medium text-base uppercase leading-[100%]'>
+    <p className='text-dark font-medium text-base uppercase leading-100'>
      Know More
     </p>
-    <h2 className='mt-4 font-normal text-custom-5xl puls leading-120'>
+    <h2 className='mt-4 font-normal text-3xl sm:text-custom-5xl puls leading-120'>
      And Used by the Biggest{' '}
      <span className=' puls font-semibold'>
       Figures in Sports and Rehab

@@ -5,10 +5,10 @@ const Partners = () => {
   return (
     <div className='px-4'>
       <div className='max-w-[684.1px] mx-auto flex flex-col justify-center text-center mt-21.75'>
-        <p className='text-dark font-medium text-base uppercase leading-[100%]'>
+        <p className='text-dark font-medium text-base uppercase leading-100'>
           PARTNERS
         </p>
-        <h2 className='mt-4 max-w-[684.1px] font-normal text-custom-5xl puls leading-120'>
+        <h2 className='mt-4 max-w-[684.1px] font-normal text-3xl sm:text-custom-5xl puls leading-120'>
           Recognized by Leading{' '}
           <span className='font-semibold puls '>
             Healthcare Institutions
