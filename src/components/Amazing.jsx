@@ -17,7 +17,6 @@ function Amazing() {
             <div className='max-w-284.5 z-30  mx-auto max-[1350px]:px-4 mt-30 w-full'>
                 <div className='bg-white shadow-[0_26px_27px_0_rgba(0,0,0,0.04)] pt-15.25 pb-[60.25px] sm:pl-[30.64px] sm:pr-[30.64px] xl:pr-0 rounded-4xl'>
                     <div className='flex flex-col xl:flex-row gap-10 xl:gap-31 max-w-[1138.1px]'>
-
                         {/* Left Content */}
                         <div className='shrink-0'>
                             <p className='font-inter font-medium text-base uppercase leading-118 text-dark'>Library</p>
@@ -37,10 +36,7 @@ function Amazing() {
                                 ))}
                             </div>
                             <Button text={'   View the Library'} variants='first' className='bg-dark rounded-sm py-4 px-[18.5px] text-white' />
-
-
                         </div>
-
                         {/* Right Slider */}
                         <div className='relative w-full xl:w-auto'>
                             <Image
@@ -75,12 +71,11 @@ function Amazing() {
                                                 width={460}
                                                 height={331}
                                                 alt="slider-image"
-                                                className='w-[461.03px] h-[331.29px] object-cover'
+                                                className='w-[461.03px] rounded-sm h-[331.29px] object-cover'
                                             />
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>
-
                                 <div className='flex items-center gap-2.5 mt-3.75'>
                                     <button
                                         onClick={() => swiperInstance?.slidePrev()}
@@ -97,7 +92,6 @@ function Amazing() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

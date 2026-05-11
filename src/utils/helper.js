@@ -101,10 +101,13 @@ export const SLIDER_DATA = [
     img: "/assets/images/png/slider.png"
   },
   {
-    img: "/assets/images/png/slider.png"
+    img: "/assets/images/png/amazing.png"
   },
   {
     img: "/assets/images/png/slider.png"
+  },
+    {
+    img: "/assets/images/png/amazing.png"
   },
 ];
 export const NAVLINKS = [
